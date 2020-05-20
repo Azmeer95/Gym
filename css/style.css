@@ -14,6 +14,7 @@ body {
 }
 
 /* Header Section Styles */
+
 header {
   /* realtive to parent element */
   position: absolute;
@@ -153,6 +154,7 @@ header .ham-burger.active span:nth-child(2) {
 }
 
 /* Home Section Styles */
+
 .home {
   /* viewport height of 100% */
   height: 100vh;
@@ -224,3 +226,55 @@ header .ham-burger.active span:nth-child(2) {
 }
 
 /* About Section Styles */
+
+.about {
+  padding: 80px 15px;
+  background-color: #ffffff;
+}
+
+.about .content {
+  -webkit-display: flex;
+  display: flex;
+}
+
+.about .content .box {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+}
+
+.about .content .box .inner {
+  background-color: #222222;
+}
+
+.about .content .box:nth-child(2) .inner {
+  background-color: #e94b3cff;
+}
+
+.about .content .box .inner .img img {
+  width: 100%;
+}
+
+.about .content .box .inner .text {
+  padding: 30px;
+}
+
+.about .content .box .inner .text h4 {
+  font-size: 18px;
+  text-decoration: center;
+  text-align: center;
+  margin: 0;
+  padding: 0px 0px 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.about .content .box .inner .text p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  font-weight: 300;
+}
