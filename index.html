@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gym Website</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="">300 <span>Spartans</span></a>
+        </div>
+        <!-- Navigation Menu -->
+        <a href="javascript:void(0)" class="ham-burger">
+          <span></span>
+          <span></span>
+        </a>
+        <!-- Menu Items-->
+        <div class="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Classes</a></li>
+            <li><a href="">Schedule</a></li>
+            <li><a href="">Price</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home">
+      <div class="container">
+        <h1>EMBRACE THE <span>STRUGGLE</span></h1>
+        <h1>AND LET IT MAKE YOU <span>STRONGER</span></h1>
+      </div>
+
+      <!-- Fontawesome Icon -->
+      <a href="#about" class="go-down">
+        <i class="fa fa-angle-down" aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".ham-burger").click(function () {
+          $(".nav").toggleClass("open");
+          $(this).toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
