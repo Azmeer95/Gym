@@ -13,6 +13,7 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+/* Header Section Styles */
 header {
   /* realtive to parent element */
   position: absolute;
@@ -151,6 +152,7 @@ header .ham-burger.active span:nth-child(2) {
   margin: auto;
 }
 
+/* Home Section Styles */
 .home {
   /* viewport height of 100% */
   height: 100vh;
@@ -220,3 +222,5 @@ header .ham-burger.active span:nth-child(2) {
 .home h1 span {
   color: #e94b3cff;
 }
+
+/* About Section Styles */
